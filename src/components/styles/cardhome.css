@@ -1,0 +1,69 @@
+.cardhome {
+    border-radius: 0.4rem;
+    /* background: none; */
+    background-color: #eeee;
+    box-shadow: 2px 2px 5px  #618685;
+    max-width: 340px;
+    margin: 0.8rem;
+}
+
+.imagecard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    
+
+}
+
+
+/* card body home */
+
+.cardHomeTitle{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 3rem;
+}
+
+.numcardhome {
+    
+    color: #618685;
+    
+}
+
+.numcardhome::before {
+    content: "N.0";
+    
+}
+.numcardhome::after {
+    content: "-";
+    
+}
+
+/* footer card home */
+
+.cardHomeFooter{
+    display: flex;
+    color: #ffffff;
+    
+
+}
+
+
+.box-blue{
+    margin:0 1rem ;
+    background: #92a8d1;
+}
+
+.descripcion {
+    margin-bottom:1rem ;
+    padding: 0.5rem;
+    color:#ffffff ;
+    
+}
+
+.box{
+    background: #b2ad7f;
+
+}

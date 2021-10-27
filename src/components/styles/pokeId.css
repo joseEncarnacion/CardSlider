@@ -1,0 +1,81 @@
+.bgPokeOne {
+    
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.cardContainer{
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px #50394c;
+}
+
+/* header top */
+.cardheader{
+   border-style: none;
+    height: 130px;
+    background-color: #92a8d1;
+    border-radius: 0.8rem 0.8rem 0 0;
+    
+}
+
+.cardimage {
+    
+    height: 130px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.img-card{
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    position: relative;
+    top: -70px;   
+}
+
+
+
+/* body card section */
+.cardbody {
+    display: flex;
+    justify-content: center;
+}
+
+.title-card-body{
+    font-weight: bold;
+    margin: 0 0.8rem;
+    font-size: 1.2rem;
+}
+
+.inf-card-body {
+    text-align: center;
+    color: #c19898;
+    font-size: 1.2rem;
+}
+
+
+
+
+/* Footer secction */
+
+.cardfooter{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+
+.sm-bord-text{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.sm-bord-inf{
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+
+
